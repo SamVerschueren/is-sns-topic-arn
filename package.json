@@ -1,0 +1,33 @@
+{
+  "name": "is-sns-topic-arn",
+  "version": "0.0.0",
+  "description": "Check if a string is an AWS SNS Topic ARN",
+  "license": "MIT",
+  "repository": "SamVerschueren/is-sns-topic-arn",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "aws",
+    "sns",
+    "topic",
+    "arn",
+    "check"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
